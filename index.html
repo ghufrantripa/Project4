@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav>
+        <div class="navleft">
+            <img src="image/blitz.png" class="logo">            
+        </div>
+        <div class="right"></div>
+        <div class="nav-user-icon">
+            <img src="image/pp.png">
+            <h1>Hello, <span th:text="${session.name}"></span>!</h1>
+        </div>
+
+    </nav>
+
+    <div class="container">        
+        <div class="left-sidebar">
+            <div class="category">
+                <a href="automotive.html"><img src="image/auto.png" >Automotive</a>
+                <a href="#"><img src="image/entertaiment.png" >Entertaiment</a>
+                <a href="#"><img src="image/game.png" >Games</a>
+                <a href="#"><img src="image/sport.png" >Sports</a>
+                <a href="#"><img src="image/technology.png" >Technology</a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="content-header">
+                <h2>Home</h2>
+            </div>
+
+            <div class="threadbox">
+                <form>
+                    <div class="threadbox-input">
+                        <img src="image/pp.png" alt="">
+                        <textarea style="width: 50vh;" rows="3" placeholder="What's up today?"></textarea>
+                        <div class="add-post-links">
+                            <label for="sel1">Category:</label>
+                            <select class="form-control" id="sel1">
+                            <option>Automotive</option>
+                            <option>Entertaiment</option>
+                            <option>Games</option>
+                            <option>Sports</option>
+                            <option>Technology</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="threadbox-threadbutton">Thread</button>
+                </form>
+            </div>
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="image/pp.png">
+                    <div>
+                        <p>Brfootball</p>
+                        <a href="Sports.html">Sports</a>
+                        .
+                        <span>Oct 5 2021, 12:00 pm</span>
+                    </div>
+                </div>
+                <div class="thread">
+                    <p>'My heart is with Mexico’ Bendera Meksiko
+
+                        20-year-old LA Galaxy defender Julian Araujo has decided to represent Mexico after FIFA approved his switch in allegiance from the USA. 
+                        
+                        He appeared at the U18, U19, U20, U23 levels for the USMNT and has one senior cap.</p>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="image/pp.png">
+                    <div>
+                        <p>Goal</p>
+                        <a href="Sports.html">Sports</a>
+                        .
+                        <span>Oct 5 2021, 12:00 pm</span>
+                    </div>
+                </div>
+                <div class="thread">
+                    <p>Spanyol berhasil menjadi juara Euro U-21 di bawah kendali eks pelatih timnas Indonesia, Luis Milla. Kemana perginya skuad bertabur pemain berbakat itu? Mata
+
+                        Ada yang sudah memutuskan gantung sepatu Wajah berteriak ketakutan.</p>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="image/pp.png">
+                    <div>
+                        <p>JualMobilantik99</p>
+                        <a href="automotive.html">Automotive</a>
+                        .
+                        <span>Oct 5 2021, 13:00 pm</span>
+                    </div>
+                </div>
+                <div class="thread">
+                    <p>Mazda luce 929 th 82 interior ori cat ori ss lengkap hidup an sendiri mobil dipakai harian yang minat hubungi tlp/wa 087855886691 harga 50 juta lokasi sidoarjo.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h3>Trending</h3>
+            </div>
+            <img src="image/trending1.jpg" class="sidebar-trending">
+            <a href="">Emyu jago</a>
+            <img src="image/trending2.jpeg" class="sidebar-trending">
+            <a href="">Messi gol pertama</a>
+            <img src="image/trending1.jpg" class="sidebar-trending">
+            <a href="">Emyu jago</a>
+
+        </div>
+    </div>
+</body>
+<div class="footer-basic">
+<footer>
+    <p class="copyright">Project Group 12 © 2021</p>
+</footer>
+</div>    
+<script src="
+</html>
